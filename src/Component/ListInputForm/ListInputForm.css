@@ -1,11 +1,11 @@
-.list-input-form-area {
-    height: 55vh;
-    background: gray;
+.clear {
+    clear: both;
 }
 .list-input-form-area {
-    height: 55vh;
+    height: 63vh;
     background: white;
     padding: 12px;
+    position: relative;
 }
 .list-input-form-area input {
     display: block;
@@ -22,12 +22,14 @@
 .list-input-form-area input:focus {
     outline: none;
 }
+.inputFields {
+    height: 46vh;
+    overflow-x: auto;
+}
 .add-input-field {
-    background: #FFF;
-    margin-left: -12px;
-    width: 106%;
-    height: 50px;
-    margin-top: 16px;
+    position: absolute;
+    bottom: 48px;
+    right: 15px;
 }
 
 .add-input-field button {
@@ -37,11 +39,19 @@
 .submit {
     height: 51px;
     background: #ff9679;
-    width: 106%;
+    width: 106.3%;
     margin-left: -12px;
-    margin-top: 0vh;
+    margin-top: 7vh;
 }
 .submit button {
     float: right;
     margin: 10px 12px;
+}
+.list-box {
+    width: 90%;
+    min-height: 160px;
+    background: red;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
 }

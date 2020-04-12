@@ -23,13 +23,13 @@
     height: 29px;
     font-size: 9px;
 }
-.date {
-    margin: 2px 15px;
-}
 
 .date-time {
-    background: #a0d78385;
+    background: #c8eab5;
     height: 25px;
+}
+.date {
+    margin: 2px 15px;
 }
 .date h5 {
     font-size: 15px;

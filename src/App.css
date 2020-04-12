@@ -1,6 +1,6 @@
 .App {
   background: rgba(79, 49, 49, 0.98);
-  height: 100vh;
+  min-height: 100vh;
   padding-top: 10px;
 }
 *{

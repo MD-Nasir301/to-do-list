@@ -1,7 +1,6 @@
-.Home{
+.Home {
     width: 31%;
-    height: 67vh;
     margin: 0px auto;
-    background: rgba(255, 255, 255, 0.918);
-    
+    background: rgb(82, 53, 53);
+    padding-bottom: 50px;
 }

@@ -6,21 +6,21 @@ const ListInputForm = () => {
 
     const { register, handleSubmit, } = useForm()
 
-    const inputItems = [{"name":1},{"name":2},{"name":3},{"name":4},{"name":5}]
-    console.log("before",inputItems);
-    const [inputField, setInputField] = useState(inputItems)
+    const [inputField, setInputField] = useState([{"name":1},{"name":2},{"name":3},{"name":4},{"name":5}])
     const [count,setCount] = useState(6)
+    const [listData,setListData] = useState([])
+    console.log("aaaaaaaaaaaa", listData);
 
 
     const onSubmit = data => {
-         console.log(data) 
+         setListData([data])
         }
 
     const addInputField = ()=> {
         setCount(count+1) 
-        
-        inputItems.push( {"name":count})
-
+        setInputField([...inputField,{"name":"name"}])
+        console.log(inputField);
+        // console.log("after adding", inputItems);
     }
 
 
@@ -29,19 +29,28 @@ const ListInputForm = () => {
             <div className="list-input-form-area">
                 
                 <form onSubmit={handleSubmit(onSubmit)}>
-
+                <div className="inputFields">
                 {
-                    inputField.map(name =>  <input name={name.name} ref={register} />)
+                    inputField.map(name =>  <input name="name" ref={register} />)
                 }
+                </div>
+   
                 <div className="submit">
                  <button type="submit">Submit</button>
                 </div>
-
                 </form>
-                <div className="add-input-field">
+              <div className="add-input-field">
                  <button onClick={addInputField}>add</button>
-                </div>
             </div>
+            </div>
+{/* 
+            {
+                listData.length && listData.map(data => <div className="list-box">
+                    <h5> {data.name} </h5>
+            </div>)
+            } */}
+            
+
         </div>
     );
 };
