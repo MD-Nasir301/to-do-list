@@ -1,0 +1,47 @@
+.list-input-form-area {
+    height: 55vh;
+    background: gray;
+}
+.list-input-form-area {
+    height: 55vh;
+    background: white;
+    padding: 12px;
+}
+.list-input-form-area input {
+    display: block;
+    width: 100%;
+    height: 6vh;
+    margin: 0px 0px 12px;
+    border: none;
+    border-bottom: 1px solid #080808;
+    padding: 5px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.list-input-form-area input:focus {
+    outline: none;
+}
+.add-input-field {
+    background: #FFF;
+    margin-left: -12px;
+    width: 106%;
+    height: 50px;
+    margin-top: 16px;
+}
+
+.add-input-field button {
+    float: right;
+    margin: 10px 15px;
+}
+.submit {
+    height: 51px;
+    background: #ff9679;
+    width: 106%;
+    margin-left: -12px;
+    margin-top: 0vh;
+}
+.submit button {
+    float: right;
+    margin: 10px 12px;
+}

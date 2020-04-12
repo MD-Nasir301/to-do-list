@@ -1,0 +1,44 @@
+.header-top {
+    padding: 5px 13px;
+    display: flex;
+    justify-content: space-between;
+    background: #a0d783;
+    height: 45px;
+}
+.logo h4 {
+    font-size: 18px;
+    line-height: 35px;
+}
+.dark-mode {
+    display: flex;
+}
+.dark-mode h4 {
+    margin-right: 10px;
+    line-height: 35px;
+    font-size: 18px;
+}
+.dark-mode input {
+    margin: 4px 0px 0px 0px;
+    width: 17px;
+    height: 29px;
+    font-size: 9px;
+}
+.date {
+    margin: 2px 15px;
+}
+
+.date-time {
+    background: #a0d78385;
+    height: 25px;
+}
+.date h5 {
+    font-size: 15px;
+}
+
+.time h5 {
+    font-size: 15px;
+}
+
+.time {
+    margin-top: 2px;
+}

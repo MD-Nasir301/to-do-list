@@ -1,0 +1,10 @@
+.footer {
+    height: 50px;
+    background: #ff9679;
+}
+.footer button {
+    float: right;
+    /* margin-right: 15px; */
+    margin: 10px 15px;
+    background: #a0d783;
+}
