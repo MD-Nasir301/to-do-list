@@ -89,6 +89,4 @@ const ListInputForm = () => {
         </div>
     );
 };
-// abcd
-
 export default ListInputForm;
