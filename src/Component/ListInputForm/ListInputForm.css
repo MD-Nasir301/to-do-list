@@ -13,7 +13,7 @@
     height: 6vh;
     margin: 0px 0px 12px;
     border: none;
-    border-bottom: 1px solid #080808;
+    border-bottom: 1px solid #dab9b9;
     padding: 5px;
     font-size: 18px;
     letter-spacing: 1px;
@@ -21,6 +21,7 @@
 }
 .list-input-form-area input:focus {
     outline: none;
+    border-color: black;
 }
 .inputFields {
     height: 46vh;
